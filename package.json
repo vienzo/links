@@ -1,7 +1,7 @@
 {
-  "name": "sup",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@vnz/01-links",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,15 +10,18 @@
   },
   "dependencies": {
     "dexie": "^3.2.2",
+    "dexie-export-import": "^1.0.3",
     "dexie-react-hooks": "^1.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "use-immer": "^0.7.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",
-    "vite": "^3.0.0"
+    "vite": "^3.0.0",
+    "vite-plugin-pwa": "^0.12.4"
   }
 }
